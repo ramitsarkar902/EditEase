@@ -1,4 +1,4 @@
-# ✏️ Easy Edit Utility
+# ✏️ EditEase Utility
 
 This is a simple utility bookmark for enabling the editing of web pages with one click. The utility will enable the document's designMode toggle and allow you to edit all the text on the web page you're currently visiting.
 <hr />
@@ -10,9 +10,7 @@ The edit mode be toggled off again by using the `ESC` key on your keyboard. <br/
 <br /><br/>
 `Note:` anything you edit on the page will be reset back to normal after refreshing!
 
-## Possible Usecases
+## Possible UseCases
 
 - Test your web designs by inserting lengthy data into your layouts
 - Modify elements of the web page in order to take a custom screenshot
-- ...
-- Just have fun with it?
