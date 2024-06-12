@@ -23,6 +23,14 @@
                 alt="github octocat logo" />
         </a>
     </footer>
+    <script>
+        fetch('edit.js').then(response => response.text()).then(script => {
+            const editTarget = document.querySelector('#target');
+            const newScript = script.replace(/\n\s+/g, '');
+
+            editTarget.href = "javascript:" + script;
+        }).catch(console.error);
+    </script>
 </body>
 
 </html>
